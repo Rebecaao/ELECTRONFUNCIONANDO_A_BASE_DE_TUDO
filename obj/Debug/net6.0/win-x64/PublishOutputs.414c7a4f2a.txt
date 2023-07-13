@@ -1,0 +1,5 @@
+C:\Users\rebeca\CSharp\voltandoClasseStartup\obj\Host\bin\appsettings.Development.json
+C:\Users\rebeca\CSharp\voltandoClasseStartup\obj\Host\bin\appsettings.json
+C:\Users\rebeca\CSharp\voltandoClasseStartup\obj\Host\bin\electron.manifest.json
+C:\Users\rebeca\CSharp\voltandoClasseStartup\obj\Host\bin\voltandoClasseStartup.pdb
+C:\Users\rebeca\CSharp\voltandoClasseStartup\obj\Host\bin\voltandoClasseStartup.exe
