@@ -1,4 +1,8 @@
 using ElectronNET.API;
+using Microsoft.EntityFrameworkCore;
+using voltandoClasseStartup.Data;
+using Microsoft.AspNetCore.Builder;
+
 
 namespace voltandoclassestartup
 {
@@ -8,13 +12,15 @@ namespace voltandoclassestartup
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContextPool<ApplicationDbContext>(options =>
+                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"),
+                 ServerVersion.AutoDetect(Configuration.GetConnectionString("DefaultConnection"))));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,17 +55,20 @@ namespace voltandoclassestartup
             }
         }
 
-        private async void CreateElectronWindow(){
+        private async void CreateElectronWindow()
+        {
             var window = await Electron.WindowManager.CreateWindowAsync();
-            window.OnClosed += Window_OnClosed; 
+            window.OnClosed += Window_OnClosed;
             window.OnMaximize += Window_OnMaximize;
         }
 
-        private void Window_OnClosed(){
+        private void Window_OnClosed()
+        {
             Electron.App.Exit();
         }
 
-        private void Window_OnMaximize(){
+        private void Window_OnMaximize()
+        {
             Electron.Dialog.ShowErrorBox("Demo Maximized event", "Hi, You just maximized your Electron App's Window");
         }
     }

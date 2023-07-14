@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OukTmn1hjM+a6ka/RSR2FKHdHLdv+bLwqyCBU/hC/1s=",
+  "Hash": "hTki2G6092QXvbJfWIBT9k++olnhpDvHcoZLb3S3iZo=",
   "Source": "voltandoClasseStartup",
   "BasePath": "_content/voltandoClasseStartup",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\splash.gif"
+    },
+    {
+      "Identity": "C:\\Users\\rebeca\\CSharp\\voltandoClasseStartup\\wwwroot\\js\\components\\CaixaStatus\\index.js",
+      "SourceId": "voltandoClasseStartup",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rebeca\\CSharp\\voltandoClasseStartup\\wwwroot\\",
+      "BasePath": "_content/voltandoClasseStartup",
+      "RelativePath": "js/components/CaixaStatus/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\components\\CaixaStatus\\index.js"
     },
     {
       "Identity": "C:\\Users\\rebeca\\CSharp\\voltandoClasseStartup\\wwwroot\\js\\site.js",
