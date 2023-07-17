@@ -1,38 +1,100 @@
-﻿
-@model IEnumerable<EmprestimosModel>
-<div class="container">
-    <div class="d-flex justify-content-between aligns-items-cente mb-5">
-        <h1>DaSHBOARD GERAL</h1>
-        <a class="btn btn-success mx-2">Cadastrar Novo Arquivo</a>
+﻿@model IEnumerable<EmprestimosModel>
+
+<head>
+      <link rel="stylesheet" href="~/css/Data.css">
+    <link rel="stylesheet" href="~/css/CardSituacao.css">
+  
+    <link rel="stylesheet" href="~/css/Home.css">
+</head>
+<div class="container-geral">
+    <div class="container-header">
+                <div class="data">
+                    <div class="data-title">DATA HOJE</div>
+                    <div class="container-datas">
+                        <div id="dia-semana" class="dia-semana">dia smeana</div>
+                        <div id="dia" class="dia">dia</div>
+                        <div id="mes" class="mes">mes</div>
+                    </div>
+                </div>
+                <nav class="container-sitiacao">
+                    <a href="#">
+                        <div class="card-situacao">
+                            <div class="container-quantidade">
+                               30
+                            </div>
+                            <div id="nao-iniciado" class="situacao">
+                                NÃO INICIADOOO
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="card-situacao">
+                            <div class="container-quantidade">30</div>
+                            <div id="producao" class="situacao">
+                                EM PRODUÇÃO
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="card-situacao">
+                            <div class="container-quantidade">30</div>
+                            <div id="atrasados" class="situacao">
+                                ATRASADOS
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="card-situacao">
+                            <div class="container-quantidade">30</div>
+                            <div id="pausados" class="situacao">
+                                PAUSADOS
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="card-situacao">
+                            <div class="container-quantidade">30</div>
+                            <div id="finalizados" class="situacao">FINALIZADO </div>
+                        </div>
+                    </a>
+                </nav>
     </div>
+
+
     <table class="table table-dark table-houver">
         <thead>
             <tr>
-            <th scope="col">Arquivos</th>
-            <th scope="col">NPallet</th>
-            <th scope="col">CaixaMaster</th>
-            <th scope="col">CaixaMedia</th>
-            <th scope="col">CaixaMini</th>
-            <th scope="col">Unidades</th>
+                <th scope="col">Arquivos</th>
+                <th scope="col">NPallet</th>
+                <th scope="col">CaixaMaster</th>
+                <th scope="col">CaixaMedia</th>
+                <th scope="col">CaixaMini</th>
+                <th scope="col">Unidades</th>
             </tr>
         </thead>
+
         <tbody>
 
-                @if(Model != null){
+                    @if (Model != null)
+                    {
 
-                @foreach(var emprestimo in Model){
-                <tr>
-                    <th scope="row">@emprestimo.Arquivo</th>
-                    <td>@emprestimo.NPallet</td>
-                    <td>@emprestimo.CaixaMaster</td>
-                    <td>@emprestimo.CaixaMedia</td>
-                    <td>@emprestimo.CaixaMini</td>
-                    <td>@emprestimo.Unidades</td>
-                </tr>
-                }
-                }
-    </tbody>
-</table>
+                        @foreach (var emprestimo in Model)
+                        {
+                            <tr>
+                                <th scope="row">@emprestimo.Arquivo</th>
+                                <td>@emprestimo.NPallet</td>
+                                <td>@emprestimo.CaixaMaster</td>
+                                <td>@emprestimo.CaixaMedia</td>
+                                <td>@emprestimo.CaixaMini</td>
+                                <td>@emprestimo.Unidades</td>
+                            </tr>
+                        }
+                    }
+        </tbody>
+    </table>
+
 </div>
-
-

@@ -1,6 +1,9 @@
 html {
   font-size: 14px;
-  background-color: aquamarine;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -14,6 +17,18 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+body{
+  background-color: rgb(170,170,170);
+}
+
+
+header{
+  background-color: rgb(217,217,217);
+
+  
+}
+
+footer{
+  height: 10%;
+  background-color: rgb(217,217,217);
 }

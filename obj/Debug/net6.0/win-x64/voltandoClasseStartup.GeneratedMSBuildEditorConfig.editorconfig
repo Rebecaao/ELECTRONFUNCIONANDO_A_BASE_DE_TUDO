@@ -11,37 +11,53 @@ build_property.EnableTrimAnalyzer =
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = voltandoClasseStartup
 build_property.RootNamespace = voltandoClasseStartup
-build_property.ProjectDir = C:\Users\rebeca\CSharp\voltandoClasseStartup\
+build_property.ProjectDir = C:\Users\ricas\Desktop\Rebeca\CSharp\ELECTRONFUNCIONANDO_A_BASE_DE_TUDO\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rebeca\CSharp\voltandoClasseStartup
+build_property.MSBuildProjectDirectory = C:\Users\ricas\Desktop\Rebeca\CSharp\ELECTRONFUNCIONANDO_A_BASE_DE_TUDO
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rebeca/CSharp/voltandoClasseStartup/Views/Home/Index.cshtml]
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/CaixaMaster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FpeGFNYXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/CaixaMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FpeGFNZWRpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/CaixaMini/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FpeGFNaW5pXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rebeca/CSharp/voltandoClasseStartup/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rebeca/CSharp/voltandoClasseStartup/Views/Shared/Error.cshtml]
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/Pallet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFsbGV0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rebeca/CSharp/voltandoClasseStartup/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rebeca/CSharp/voltandoClasseStartup/Views/_ViewImports.cshtml]
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rebeca/CSharp/voltandoClasseStartup/Views/_ViewStart.cshtml]
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rebeca/CSharp/voltandoClasseStartup/Views/Shared/_Layout.cshtml]
+[C:/Users/ricas/Desktop/Rebeca/CSharp/ELECTRONFUNCIONANDO_A_BASE_DE_TUDO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8dqzbha7ic

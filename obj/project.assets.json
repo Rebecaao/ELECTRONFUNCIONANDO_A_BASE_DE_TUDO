@@ -2092,19 +2092,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rebeca\\.nuget\\packages\\": {}
+    "C:\\Users\\ricas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rebeca\\CSharp\\voltandoClasseStartup\\voltandoClasseStartup.csproj",
+      "projectUniqueName": "C:\\Users\\ricas\\Desktop\\Rebeca\\CSharp\\ELECTRONFUNCIONANDO_A_BASE_DE_TUDO\\voltandoClasseStartup.csproj",
       "projectName": "voltandoClasseStartup",
-      "projectPath": "C:\\Users\\rebeca\\CSharp\\voltandoClasseStartup\\voltandoClasseStartup.csproj",
-      "packagesPath": "C:\\Users\\rebeca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rebeca\\CSharp\\voltandoClasseStartup\\obj\\",
+      "projectPath": "C:\\Users\\ricas\\Desktop\\Rebeca\\CSharp\\ELECTRONFUNCIONANDO_A_BASE_DE_TUDO\\voltandoClasseStartup.csproj",
+      "packagesPath": "C:\\Users\\ricas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ricas\\Desktop\\Rebeca\\CSharp\\ELECTRONFUNCIONANDO_A_BASE_DE_TUDO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rebeca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ricas\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2163,19 +2163,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[6.0.20, 6.0.20]"
+            "version": "[6.0.19, 6.0.19]"
           },
           {
             "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-            "version": "[6.0.20, 6.0.20]"
+            "version": "[6.0.19, 6.0.19]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[6.0.20, 6.0.20]"
+            "version": "[6.0.19, 6.0.19]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[6.0.20, 6.0.20]"
+            "version": "[6.0.19, 6.0.19]"
           }
         ],
         "frameworkReferences": {
@@ -2186,7 +2186,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.411\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

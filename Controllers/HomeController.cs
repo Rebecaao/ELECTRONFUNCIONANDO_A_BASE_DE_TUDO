@@ -14,8 +14,8 @@ public class HomeController : Controller
         }
         public IActionResult Index()
         {
-            IEnumerable<EmprestimosModel> emprestimos = _db.Emprestimos;
-            return View(emprestimos);
+            IEnumerable<EmprestimosModel> crud = _db.Emprestimos;
+            return View(crud);
         }
     }
 
